@@ -1,0 +1,70 @@
+body {
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid;
+}
+header div span {
+  margin-bottom: 10px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+header div span:first-child {
+  font-size: 500%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .top {
+  margin-top: 20px;
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;
+}
+main .top .top-one {
+  display: flex;
+  justify-content: space-between;
+}
+main .top .top-one .top-one-first {
+  display: flex;
+  flex-direction: column;
+}
+main .top .top-one .top-one-second {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+main .circle {
+  align-self: center;
+  margin-top: 50px;
+}
+main .circle div {
+  display: flex;
+  flex-direction: row;
+}
+main .circle div span {
+  margin: 10px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+main .circle div:nth-child(1) span {
+  background-color: aqua;
+}
+main .circle div:nth-child(2) span {
+  background-color: rgba(76, 82, 87, 0.678);
+}
+main .circle div:nth-child(3) span {
+  background-color: #389244;
+}
+
+/*# sourceMappingURL=style.css.map */
